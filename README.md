@@ -3,7 +3,7 @@
 A simple light class prefab for the Godot engine using the string-based light animation system originally found in Quake:
 https://github.com/id-Software/Quake
 
-Godot version 3.4
+Godot version 3.4.2
 
 Features:
  - Includes all the 11 original Quake animation tables.
