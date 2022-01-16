@@ -70,9 +70,7 @@ func _ready()->void:
 func _process(_afTimeStep : float)->void:
 	#////////////////////////////
 	# Don't animate in the editor
-	var bUpdateInEditorView : bool = Engine.editor_hint && AnimateInTheEditor;
-	
-	if (bUpdateInEditorView==false): 
+	if (Engine.editor_hint && AnimateInTheEditor==false): 
 		var fDesiredEnergy = GetEnergyLevel("m") * EnergyMultiplier;	
 		SetLight(fDesiredEnergy, LightColor);
 		SetMaterialEmission(fDesiredEnergy, EmissionColor);

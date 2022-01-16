@@ -21,6 +21,7 @@ _global_script_class_icons={
 [application]
 
 config/name="QuakeLights"
+run/main_scene="res://MainScene.tscn"
 config/icon="res://icon_ql.png"
 
 [physics]
