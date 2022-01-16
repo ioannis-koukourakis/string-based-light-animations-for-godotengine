@@ -127,6 +127,7 @@ func _process(_afTimeStep : float)->void:
 	var lIt : int = int(fFrame) % sAnimType.length();
 	var fDesiredEnergy = GetEnergyLevel(sAnimType[lIt]);
 	
+	
 	if (Fade):
 		if (is_equal_approx(fDesiredEnergy, mfEnergy)==false):
 			var fStep : float = _afTimeStep * FadeSpeed;
@@ -187,6 +188,6 @@ func SetMaterialEmission(afEnergy : float, aColor : Color = Color(-1,-1,-1))->vo
 			pMat.set_emission_energy(afEnergy);
 			
 			if (aColor==Color(-1,-1,-1)): return;
-			pMat.set_emission(EmissionColor);
+			pMat.set_emission(aColor);
 
 #-------------------------------------------------------

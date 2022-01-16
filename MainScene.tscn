@@ -39,7 +39,7 @@ LightColor = Color( 0.564706, 1, 0.52549, 1 )
 EmissionColor = Color( 0.670588, 1, 0.466667, 1 )
 AnimateInTheEditor = true
 LightAnimation = 12
-FadeSpeed = 30.0
+FadeSpeed = 20.0
 
 [node name="QuakeLamp2" parent="." instance=ExtResource( 2 )]
 transform = Transform( 0.328949, -0.539074, 0.775366, 0, 0.82106, 0.570843, -0.944348, -0.187778, 0.270087, 9.19244, 3.3214, 7.33545 )
@@ -49,7 +49,7 @@ EnergyMultiplier = 2.0
 AnimateInTheEditor = true
 LightAnimation = 10
 Fade = true
-FadeSpeed = 30.0
+FadeSpeed = 15.0
 
 [node name="QuakeLamp3" parent="." instance=ExtResource( 2 )]
 transform = Transform( 0.168765, 0.562655, -0.809283, 0, 0.82106, 0.570843, 0.985656, -0.096338, 0.138566, -8.60617, 3.3214, 7.33545 )
@@ -58,9 +58,8 @@ EmissionColor = Color( 0.490196, 0.92549, 0.984314, 1 )
 EnergyMultiplier = 2.0
 AnimateInTheEditor = true
 LightAnimation = 10
-TimeOffset = 10.0
-Fade = true
+TimeOffset = 2.0
 FadeSpeed = 30.0
 
 [node name="Camera" type="Camera" parent="."]
-transform = Transform( -0.999845, 0, 0.0175919, 0, 1, 0, -0.0175919, 0, -0.999845, 0.342365, 4.43442, -8.85086 )
+transform = Transform( -0.999845, 0, 0.0175919, 0.00510225, 0.957016, 0.289989, -0.0168357, 0.290034, -0.956868, 0.342365, 4.43442, -8.85086 )
