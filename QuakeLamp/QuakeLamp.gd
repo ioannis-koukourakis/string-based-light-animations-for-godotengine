@@ -26,7 +26,6 @@ enum LampAnimation{
 var mvLights : Array = [];
 var mvMeshInstances : Array = [];
 var mbSwitchedOn : bool = true;
-var mlAnimationType : int = 10;
 var mfTimePassed : float = 0.0;
 var mfEnergy : float = 1.0;
 var mpSPB = StreamPeerBuffer.new();
@@ -167,8 +166,7 @@ func SetLight(afEnergy:float, aColor:Color=Color(-1,-1,-1)):
 	for i in range(mvLights.size()-1, -1, -1):
 		var pCurrLight : Light = mvLights[i];
 		if (is_instance_valid(pCurrLight)==false): continue;
-
-		#pCurrLight.set_param(Light.PARAM_ENERGY, afEnergy);
+		
 		pCurrLight.light_energy = afEnergy;
 		
 		if (aColor==Color(-1,-1,-1)): return;

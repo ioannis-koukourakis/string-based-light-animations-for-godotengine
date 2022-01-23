@@ -14,5 +14,6 @@ mesh = SubResource( 1 )
 material/0 = ExtResource( 2 )
 
 [node name="SpotLight" type="SpotLight" parent="."]
+light_energy = 1.2
 shadow_enabled = true
 spot_range = 32.0
