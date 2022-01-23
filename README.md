@@ -1,7 +1,6 @@
 # quake_lights_for_godot
 
-A simple light class prefab for the Godot engine inspired by the string-based light animation system originally found in Quake:
-https://github.com/id-Software/Quake
+A simple light class prefab for the Godot engine inspired by the string-based light animation system originally found in Quake and Half Life games.
 
 Godot version 3.4.2
 
