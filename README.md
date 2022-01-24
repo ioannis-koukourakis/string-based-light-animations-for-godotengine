@@ -12,7 +12,7 @@ Installation:
 - Drag and drop in your main scene, select the desired animation type and enjoy your new animated light.
 
 Features:
- - Includes 11 original Quake animation tables.
+ - Includes 11 animation table presets from Quake.
  - Supports custom user animations.
  - Animations can be previewed in the Godot editor.
  - Supports optional fade between the string animation values to break the stepping effect where needed.
